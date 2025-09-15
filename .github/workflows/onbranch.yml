@@ -1,6 +1,7 @@
 name: on branch specific
 on: push
   branches:
+    - master
     - main
 jobs:
   firstjob:
