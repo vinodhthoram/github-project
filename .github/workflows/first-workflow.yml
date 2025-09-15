@@ -8,4 +8,6 @@ jobs:
         run: echo "running my first workflow"
       - name: 2nd step!
         run: echo "another workflow"
+      - name: 3rd step
+        run: ls
 
