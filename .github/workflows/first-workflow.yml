@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: greet
         run: echo "running my first workflow"
-      - name: 2nd step
+      - name: 2nd step!
         run: echo "another workflow"
 
