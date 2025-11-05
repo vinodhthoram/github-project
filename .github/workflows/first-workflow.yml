@@ -10,5 +10,8 @@ jobs:
         run: echo "another workflow"
       - name: 3rd step
         run: ls
+  secondjob:
+    runs-on: ubuntu-latest
+    steps:
       - name: just add line
         run: echo "added one more line"
