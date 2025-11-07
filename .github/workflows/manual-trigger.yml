@@ -1,1 +1,8 @@
-
+name: on manual specific
+on: workflow_dispatch
+jobs:
+  firstjob:
+  runs-on: ubuntu-latest
+  steps:
+    - name: runs on ubuntu
+      runs: echo "hello-world"
