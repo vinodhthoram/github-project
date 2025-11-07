@@ -5,4 +5,4 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - name: runs on ubuntu
-      runs: echo "helllo-world"
+      runs: echo "hello-world"
