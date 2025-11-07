@@ -1,0 +1,9 @@
+name: triger branch specific
+on:
+  push: dev
+jobs:
+  firstjob:
+    runs-on: windows-latest
+    steps:
+      name: runs on ubuntu
+      run: echo "weclome to linux"
