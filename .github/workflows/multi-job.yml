@@ -8,13 +8,13 @@ jobs:
         run: echo "welcome to github actions"
   buildjob:
     runs-on: ubuntu-latest
-    need: testjob
+    needs: testjob
     steps:
       - name: build the job
         run: echo "welcome to github actions"
   deployjob:
     runs-on: ubuntu-latest
-    need: buildjob
+    needs: buildjob
     steps:
       - name: deploy the job
         run: echo "welcome to github actions"
